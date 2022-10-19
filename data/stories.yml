@@ -1,0 +1,80 @@
+version: "3.1"
+
+stories:
+
+- story: presentacion
+  steps:
+  - intent: saludo
+  - action: action_presentacion # utter_saludo
+  # - intent: proximos_pasos
+  #  entities:
+  #    - nombre
+  # - action: utter_proximos_pasos
+
+- story: datos_personales_story
+  steps:
+  - intent: lugar_origen
+  - action: utter_lugar_origen
+  - intent: fecha_nacimiento
+  - action: utter_fecha_nacimiento
+  - intent: tiempo_libre
+  - action: utter_tiempo_libre
+
+- story: Sos un bot
+  steps:
+  - intent: sos_bot
+  - action: utter_sos_bot
+  - intent: sos_bot
+  - action: utter_sos_bot_2
+  - intent: sos_bot_miedos
+  - action: utter_sos_bot_miedo
+  - intent: sos_bot_sentimientos
+  - action: utter_sos_bot_sentimientos
+  - intent: sos_bot_emociones
+  - action: utter_sos_bot_emociones
+
+- story: datos_academicos_story
+  steps:
+  - intent: estudio_en_curso
+  - action: utter_estudio_en_curso
+  - intent: datos_estudio
+  - action: utter_datos_estudio
+  - intent: finales_pendientes
+  - action: utter_finales_pendientes
+
+- story: materias_cursando_story
+  steps:
+  - intent: materias_cursando
+  - action: action_materias_cursando
+
+- story: materia_particular_story
+  steps:
+  - intent: estado_materia
+    entities:
+      - materia
+  - action: action_estado_materia
+  - intent: opinion_materia
+  - action: action_opinion_materia
+  - intent: horarios_materia
+  - action: action_horarios_materia
+
+- story: pregunta horarios
+  steps:
+  - intent: horarios_materia
+    entities:
+      - materia
+  - action: action_horarios_materia
+
+- story: materias_de_story
+  steps:
+  - intent: materias_de
+    entities:
+      - anio
+  - action: action_materias_de_anio
+
+- story: clima_story
+  steps:
+  - intent: preguntar_clima
+    entities:
+      - localidad
+  - action: action_clima

@@ -1,0 +1,301 @@
+version: "3.1"
+
+nlu:
+
+- intent: saludo
+  examples: |
+    - hola!
+    - hola
+    - buenas
+    - holaaa
+    - buenos dias
+    - buenas tardes
+    - buenas noches
+    - Hola que tal
+    - Hola como estas
+    - ¿Que tal?
+    - hola ramaaa
+    - hola ramita
+    - hola amigo
+    - amigoo
+    - bro
+    - hola bro
+    - que haces rama
+    - rama
+
+
+
+- intent: afirmar
+  examples: |
+    - si
+    - s
+    - totalmente
+    - por supuesto
+    - dale
+    - listo
+    - joya
+    - claro
+
+
+- intent: denegar
+  examples: |
+    - no
+    - n
+    - nunca
+    - jamas
+    - no lo creo
+    - no lo creo
+    - no creo
+    - ni ahi
+
+
+- intent: buen_humor
+  examples: |
+    - perfecto
+    - genial
+    - todo joya
+    - estoy joya
+    - me siento muy bien
+    - me siento bien
+    - bien
+    - divino
+    - excelente
+    - estoy muy bien
+    - estoy bien
+
+
+- intent: mal_humor
+  examples: |
+    - mi dia estuvo horrible
+    - estoy triste
+    - me siento mal
+    - no estoy bien
+    - triste
+    - no muy bien
+    - mal
+    - mal, no fue un buen dia
+
+
+
+- intent: despedida
+  examples: |
+    - chau
+    - adios
+    - hasta luego
+    - nos vemos
+    - hasta pronto
+    - seguimos luego
+    - nos vemos pronto
+
+
+# - intent: proximos_pasos
+#  examples: |
+#    - soy [rama](nombre)
+#    - [melina](nombre)
+#    - [nombres](nombre)
+#    - soy [nombres](nombre)
+#    - mi nombre es [nombres](nombre)
+#    - me llamo [juan](nombre)
+#    - [analia](nombre)
+
+- intent: lugar_origen
+  examples: |
+    - de donde sos?
+    - de donde eres?
+    - donde naciste?
+    - de que ciudad sos?
+    - de que pueblo sos?
+    - cual es tu lugar de origen?
+
+
+- intent: fecha_nacimiento
+  examples: |
+    - cuando naciste?
+    - cual es tu fecha de nacimiento?
+    - que edad tienes?
+    - cuantos años tenes?
+    - cual es tu edad?
+    - que dia naciste?
+
+
+- intent: sos_bot
+  examples: |
+    - sos un bot?
+    - sos humano?
+    - sos una persona?
+    - estoy hablando con una persona?
+    - estoy hablando con un bot?
+    - eres un robot?
+    - que sos?
+    - pero entonces sos un bot
+    - sos una inteligencia artificial
+    - pero entonces sos una IA
+    - sos una ia
+
+
+- intent: sos_bot_miedos
+  examples: |
+    - ¿A qué tipo de cosas le tienes miedo?
+    - que miedo tenes
+    - cuales son tus miedos
+    - a que le temes?
+    - tenes algun miedo?
+    - tenes miedos?
+
+
+- intent: sos_bot_sentimientos
+  examples: |
+    - que sentimientos tenes?
+    - cuales son tus sentimientos?
+    - que sentimientos podes tener?
+    - que emociones podes sentir?
+    - que sentimientos sientes?
+
+
+- intent: sos_bot_emociones
+  examples: |
+    - como puedo saber que realmente sientes esas cosas?
+    - como se yo que podes sentir eso?
+    - es comprobable que sientas emociones?
+    - como se que podes sentir emociones?
+    - como puedo saber que sentis esas cosas?
+
+
+
+- intent: tiempo_libre
+  examples: |
+    - que te gusta hacer en tu tiempo libre
+    - que haces en tu tiempo libre
+    - que haces ademas de estudiar?
+    - que haces en tu tiempo de ocio?
+    - cuales son tus hobbies?
+    - tenes algun hobby?
+
+
+- intent: estudio_en_curso
+  examples: |
+    - estudias?
+    - que haces de tu vida?
+    - que estudias?
+    - que estas estudiando?
+    - que carrera estas estudiando?
+    - estas estudiando?
+    - trabajas?
+    - estas trabajando?
+
+
+- intent: datos_estudio
+  examples: |
+    - como te esta yendo?
+    - como te va?
+    - como te esta resultando?
+    - te esta yendo bien?
+    - y como va el estudio?
+    
+
+- intent: finales_pendientes
+  examples: |
+    - que finales te quedan por dar?
+    - cuales son los finales que debes?
+    - que finales te quedaron pendientes?
+    - tenes algun final pendiente?
+    - debes muchos finales?
+    - cuantos finales tenes que dar?
+
+
+- intent: materias_cursando
+  examples: |
+    - que materias estas cursando?
+    - cuales son las materias que estas cursando actualmente?
+    - que materias cursas actualmente?
+    - que materias cursas?
+    - cuales materias cursas?
+
+
+- intent: estado_materia
+  examples: |
+    - como venis con [Programacion Exploratoria](materia)?
+    - como venis con [Investigacion Operativa](materia)?
+    - como venis con [Programacion Orientada a Objetos](materia)?
+    - como venis con [Comunicacion de Datos I](materia)?
+
+
+- intent: opinion_materia
+  examples: |
+    - que opinas de esa materia?
+    - que opinas de la materia?
+    - que opinas acerca de la materia?
+    - que opinion tenes de la materia?
+    - que pensas de la materia?
+    - que opinas de [programacion orientada a objetos](materia)?
+    - te gusta [comunicacion de datos](materia)?
+    - te parece util [programacion exploratoria](materia)?
+
+
+- intent: horarios_materia
+  examples: |
+    - cuales son los horarios de esa materia?
+    - en que horarios se cursa?
+    - cuales son los horarios?
+    - cuando se cursa?
+    - que dias se cursa?
+    - horarios
+    - cuales son los horarios de [investigacion operativa](materia)?
+    - que dias cursas [programacion orientada a objetos](materia)
+    - en que horarios cursas [comunicacion de datos](materia)?
+
+
+- intent: materias_de
+  examples: |
+    - cuales son las materias que se dictan en [1](anio)?
+    - que materias hay en [2](anio)?
+    - materias de [3](anio)?
+    - que materias son dictadas en [4](anio)?
+
+
+- intent: preguntar_clima
+  examples: |
+    - como esta el clima en [tandil,AR](localidad)?
+    - como esta el clima en [mar del plata,AR](localidad)?
+    - como esta el clima en [buenos aires,AR](localidad)?
+    - cual es el clima en [general villegas,AR](localidad)?
+    - cual es la condicion climatica en [berlin,DE](localidad)?
+    - como esta el tiempo en [paris,FR](localidad)?
+    - cual es el pronostico en [rauch,AR](localidad)?
+    - cual es la temperatura en [villa cacique,AR](localidad)?
+
+
+- regex: materia
+  examples: |
+    - ((([aA-zZ]\w+ *){1, })+(, )*){1, }
+  #acepta espacios y comas
+
+- synonym: programacion
+  examples: |
+    - prog
+
+- lookup: nombres
+  examples: |
+    - rama
+    - martin
+    - santiago
+    - melina
+    - juan
+    - martina
+    - mateo
+    - rogelio
+    - rodrigo
+    - maria
+    - analia
+    - pedro
+    - analía
+
+
+
+- synonym: buenos aires
+  examples: |
+    - bs as
+    - bsas
+    - baires
+    - buenosaires
+    - bs.as

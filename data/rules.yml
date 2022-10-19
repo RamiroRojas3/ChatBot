@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+- rule: Despedirse
+  steps:
+  - intent: despedida
+  - action: action_despedida
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-anio",
+      "2": "I-anio",
+      "3": "L-anio",
+      "4": "U-anio",
+      "5": "B-localidad",
+      "6": "I-localidad",
+      "7": "L-localidad",
+      "8": "U-localidad",
+      "9": "B-materia",
+      "10": "I-materia",
+      "11": "L-materia",
+      "12": "U-materia",
+      "13": "B-nombre",
+      "14": "I-nombre",
+      "15": "L-nombre",
+      "16": "U-nombre",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-anio": 1,
+      "I-anio": 2,
+      "L-anio": 3,
+      "U-anio": 4,
+      "B-localidad": 5,
+      "I-localidad": 6,
+      "L-localidad": 7,
+      "U-localidad": 8,
+      "B-materia": 9,
+      "I-materia": 10,
+      "L-materia": 11,
+      "U-materia": 12,
+      "B-nombre": 13,
+      "I-nombre": 14,
+      "L-nombre": 15,
+      "U-nombre": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "rule_only_slots": [
+    "localidad"
+  ],
+  "rule_only_loops": []
+}

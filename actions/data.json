@@ -1,0 +1,18 @@
+{
+    "Programacion Exploratoria": {
+        "dia": ["miercoles"],
+        "horario": ["13hs a 16hs"]
+    },
+    "Investigacion Operativa": {
+        "dia": ["martes", "viernes"],
+        "horario": ["16hs a 18hs", "09hs a 11hs"]
+    },
+    "Programacion Orientada a Objetos": {
+        "dia": ["martes", "viernes"],
+        "horario": ["13hs a 15hs", "13hs a 16hs"]
+    },
+    "Comunicacion de datos I": {
+        "dia": ["jueves"],
+        "horario": ["9hs a 15hs"]
+    }
+}

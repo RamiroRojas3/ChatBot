@@ -1,0 +1,10 @@
+[
+  {
+    "name": "materia",
+    "pattern": "((([aA-zZ]\\w+ *){1, })+(, )*){1, }"
+  },
+  {
+    "name": "nombres",
+    "pattern": "(\\brama\\b|\\bmartin\\b|\\bsantiago\\b|\\bmelina\\b|\\bjuan\\b|\\bmartina\\b|\\bmateo\\b|\\brogelio\\b|\\brodrigo\\b|\\bmaria\\b|\\banalia\\b|\\bpedro\\b|\\banalía\\b)"
+  }
+]

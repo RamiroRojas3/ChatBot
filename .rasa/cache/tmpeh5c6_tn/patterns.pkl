@@ -1,0 +1,14 @@
+[
+  {
+    "name": "materia",
+    "pattern": "((([aA-zZ]\\w+ *){1, })+(, )*){1, }"
+  },
+  {
+    "name": "nombre",
+    "pattern": "(\\brama\\b|\\bmartin\\b|\\bsantiago\\b|\\bmelina\\b|\\bjuan\\b|\\bmartina\\b|\\bmateo\\b|\\brogelio\\b|\\brodrigo\\b|\\bmaria\\b|\\banalia\\b|\\bpedro\\b|\\banalía\\b)"
+  },
+  {
+    "name": "ciudades",
+    "pattern": "(\\btandil\\b|\\bvilla\\ cacique\\b|\\bgeneral\\ villegas\\b|\\bgral\\.\\ villegas\\b|\\bgral\\ villegas\\b|\\bbs\\ as\\b|\\bbuenos\\ aires\\b|\\brauch\\b|\\bmar\\ del\\ plata\\b|\\bbolivar\\b|\\btrenque\\ lauquen\\b|\\bparis\\b|\\bberlin\\b|\\bnew\\ york\\b)"
+  }
+]
